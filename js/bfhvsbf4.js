@@ -149,7 +149,7 @@ function check() {
 
     if ( bfhxone != undefined &&
         bf4xone != undefined ) {
-        if(parseInt(bfhxone) > parseInt(bf4xbox)) {
+        if(parseInt(bfhxone) > parseInt(bf4xone)) {
             $(".xone").html(
                     "<div class='item red'>" + bf4xone + "</div><div class='item green'>" + bfhxone + "</div"
             )
